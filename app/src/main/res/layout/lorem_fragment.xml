@@ -23,7 +23,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
                 app:title="@string/title_toolbar"
-                android:padding="@dimen/padding_lorem"
+                android:padding="@dimen/padding_lbllorem"
                 app:layout_scrollFlags="scroll|enterAlways|snap"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
@@ -51,11 +51,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginEnd="@dimen/initFragment_main_fab_margin"
-            android:layout_marginBottom="@dimen/initFragment_main_fab_margin"
+            android:layout_marginEnd="@dimen/loremFragment_fab_margin"
+            android:layout_marginBottom="@dimen/loremFragment_fab_margin"
             android:src="@drawable/ic_wrap_text_black_24dp"
-            app:elevation="@dimen/initFragment_main_fab_elevation"
-            app:pressedTranslationZ="@dimen/initFragment_main_fab_transz" />
+            app:elevation="@dimen/loremfragment_fab_elevation"
+            app:pressedTranslationZ="@dimen/loremFragment_fab_transz" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

@@ -16,9 +16,8 @@ Ahorarr ese que llega a wan diodenoo ese pedazo de te va a hasé pupitaa te voy 
     <string name="app_name">pr08-PabloRomeroMontero-master</string>
     <string name="title_menu_settings">Settings</string>
     <string name="title_toolbar">Lorem</string>
-    <string name="initFragment_lblTitle">Lorem</string>
-    <string name="initfragment_settings">Settings</string>
-    <string name="this_is_the_detail_fragment">This is the detail fragment</string>
+    <string name="prefItem_dialogTitle">Lorem type</string>
+    <string name="lblDetailFragment">This is the detail fragment</string>
     <string name="detailFragment_lblTitle">Detail</string>
     <string name="fragmentSettings_title_toolbar">Settings</string>
     <string name="summary_lorem">Lorem Type</string>

@@ -23,7 +23,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:title="@string/fragmentSettings_title_toolbar"
-            android:padding="@dimen/padding_lorem"
+            android:padding="@dimen/padding_lbllorem"
             app:layout_scrollFlags="scroll|enterAlways|snap"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 

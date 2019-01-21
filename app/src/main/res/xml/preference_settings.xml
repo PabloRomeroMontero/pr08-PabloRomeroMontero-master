@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <ListPreference
         android:defaultValue="@string/main_latin_ipsum"
-        android:dialogTitle="@string/prefLoreChiquito_dialogTitle"
+        android:dialogTitle="@string/prefLoremType_dialogTitle"
         android:entries="@array/prefLoreChiquito_entries"
         android:entryValues="@array/prefLoreChiquito_entriesValues"
         android:icon="@drawable/ic_wrap_text_black_24dp"
         android:key="@string/lbltext_prefkey"
-        android:title="@string/prefLoreChiquito_dialogTitle"
+        android:title="@string/prefLoremType_dialogTitle"
         app:useSimpleSummaryProvider="true" />
 </PreferenceScreen>

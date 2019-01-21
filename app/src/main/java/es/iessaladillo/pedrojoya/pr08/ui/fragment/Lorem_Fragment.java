@@ -42,7 +42,7 @@ public class Lorem_Fragment extends Fragment implements SharedPreferences.OnShar
         settings = PreferenceManager.getDefaultSharedPreferences(getContext());
         setupToolbar();
         setupFab();
-        showLoremText();
+        changeText();
     }
 
     private void setupFab() {
@@ -77,7 +77,7 @@ public class Lorem_Fragment extends Fragment implements SharedPreferences.OnShar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.sharedPreferencesMenu) {
-
+            navigateToSettings();
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -86,11 +86,11 @@ public class Lorem_Fragment extends Fragment implements SharedPreferences.OnShar
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
         if (TextUtils.equals(key, getString(R.string.lbltext_prefkey))) {
-            showLoremText();
+            changeText();
         }
     }
 
-    private void showLoremText() {
+    private void changeText() {
         b.txtLorem.setText(settings.getString(getString(R.string.lbltext_prefkey), getString(R.string.main_latin_ipsum)));
     }
 
